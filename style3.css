@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #11805d;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #02021b;
+}
+
+.gallery{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    /* para que lo que sobresalga de los 1200px se oculte */
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery__title{
+    font-size: 2rem;
+    margin-bottom: 1em;
+    align-self: center;
+}
+
+.gallery__container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery__picture{
+    /* flex-basis: 300px;
+    flex-grow: 1; */
+    flex: 300px;
+}
+
+.gallery__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* para que las imagenes no pierdan calidad */
+    border-radius: 30px;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: o;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 450px;
+    height: 450px;
+    outline: 2px solid #1a1a58;
+    margin: 60px auto;
+
+    display: flex;
+    
+}
+
+.element {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.element-1 {
+    background-color: #0000ff;
+}
+.element-2 {
+    background-color: #ff7300;
+}
+.element-3 {
+    background-color: #00ffff;
+}
+.element-4 {
+    background-color: #8a2be2;
+}
